@@ -881,10 +881,6 @@ header .container .navigation a:hover p {
   width: 300px;
   height: 100px;
 }
-.partners .partners-list li:hover {
-  box-shadow: 1px 1px 15px 1px #aaaaaa;
-  cursor: pointer;
-}
 .partners .partners-list li:last-child {
   margin-right: 0;
 }

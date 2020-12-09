@@ -968,11 +968,7 @@ header {
                 width: 300px;
                 height: 100px;
             }
-            &:hover {
-                box-shadow: 1px 1px 15px 1px rgb(170, 170, 170);
-                cursor: pointer;
-            }
-
+            
             &:last-child {
                 margin-right: 0;
             }
