@@ -449,7 +449,7 @@ header {
                 margin-bottom: 100px;
                 .form{
                     width: 425px;
-                    height: 649px;
+                    height: auto;
                     background-color: white;
                     margin-left: 40px;
                     box-shadow: 0px 4px 35px rgba(0, 0, 255, 0.15);
@@ -519,6 +519,7 @@ header {
                             height: 61px;
                             border-radius: 31px;
                             margin-top: 15px;
+                            margin-bottom: 30px;
                             border: none;
                             background-color: #0000FF;
                             color: white;
@@ -875,7 +876,7 @@ header {
                     font-size: 15px;
                     line-height: 179%;
                     color: #151E62;
-                    width: 239px;
+                    width: 330px;
                     span{
                         font-weight: 600;
                     }
@@ -883,19 +884,19 @@ header {
 
                 &:nth-child(1){
                     .content {
-                        background-image: url("../images/Thumbnail\ Chapter\ 1.png");
+                        background-image: url("../images/DE_Intro-to-stocks.png");
                     }
                 }
 
                 &:nth-child(2) { 
                     .content {
-                        background-image: url("../images/Thumbnail\ Chapter\ 2.png");
+                        background-image: url("../images/DE_How-to-choose-your-stocks.png");
                     }
                 }
 
                 &:nth-child(3) { 
                     .content {
-                        background-image: url("../images/Thumbnail\ Chapter\ 3.png");
+                        background-image: url("../images/DE_How-to-trade-stocks.png");
                     }
                 }
 
@@ -915,7 +916,7 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 416px;
+        width: 470px;
         height: 63px;
         border-radius: 31px;
         background-color: #0000FF;
@@ -942,6 +943,7 @@ header {
             margin-top: 100px;
             margin-bottom: 50px;
             color: #151E62;
+            text-align: center;
         }
     }
     .partners-list{
@@ -968,7 +970,11 @@ header {
                 width: 300px;
                 height: 100px;
             }
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> aa58eba4b2f0a71f383bb666fa57897bc11c62e5
             &:last-child {
                 margin-right: 0;
             }
@@ -1464,7 +1470,7 @@ footer {
             ul {
                 li {
                     width: 478px;
-                    height: 464px;   
+                    height: auto;   
                     .content {
                         height: 250px;
                         img {
@@ -1607,7 +1613,7 @@ footer {
             ul {
                 li { 
                     .description {
-                        width: 317px;
+                        width: 425px;
                     }
                 }
             }
@@ -1803,7 +1809,7 @@ footer {
                         height: 185px;
                     }
                     .description {
-                        width: 225px;
+                        width: 275px;
                     }
                 }
             }
@@ -2198,7 +2204,7 @@ footer {
                     }
                     
                     .description {
-                        width: 460px;
+                        width: 630px;
                         font-size: 24px;
                     }
                 }
@@ -2208,7 +2214,7 @@ footer {
         a {
             width: 690px;
             height: 100px;
-            font-size: 35px;
+            font-size: 25px;
             border-radius: 50px;
         }
     }
@@ -2556,7 +2562,7 @@ footer {
                     }
                     
                     .description {
-                        width: 550px;
+                        width: 625px;
                         font-size: 30px;
                     }
                 }
@@ -2567,6 +2573,7 @@ footer {
             width: 600px;
             height: 100px;
             font-size: 30px;
+            text-align: center;
         }
     }
 
@@ -2676,6 +2683,8 @@ footer {
                     a {
                         font-size: 33px;
                         margin: 30px;
+                        line-height: 45px;
+                        text-align: center;
                     }
                 }
 
